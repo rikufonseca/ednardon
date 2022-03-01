@@ -13,39 +13,6 @@
  padding: 0.6rem;
 }
 
-.box {
-  display: flex;
-  overflow: hidden;
-  width: 100vw;
-  // height: 1.8em;
-  position: absolute;
-  border-bottom: 1px solid black;
-  top: 8.6%;
-  left:0%;
-  transform:translateY(-50%);
-}
-
-.txt:hover {
-  animation-play-state: paused;
-}
-
-.txt {
-  white-space: nowrap;
-}
-
-.moveit {
-  animation: slide 10s linear infinite;
-}
-
-@keyframes slide {
-  0%{
-    transform: translate(0,0);
-  }
-  100% {
-    transform: translate(-50%, 0);
-  }
-}
-
 .loop-holder {
   display: flex;
   white-space: nowrap;
