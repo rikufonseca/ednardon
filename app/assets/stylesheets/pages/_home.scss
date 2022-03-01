@@ -1,1 +1,44 @@
 // Specific CSS for your home-page
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.ed, .info {
+  border: 1px solid black;
+  width: 50vw;
+ justify-content: center;
+ display: flex;
+ padding: 0.6rem;
+}
+
+#box {
+  display: flex;
+  overflow: hidden;
+  width: 100vw;
+  height: 1.8em;
+  position: absolute;
+  border-bottom: 1px solid black;
+  top: 8.6%;
+  left:0%;
+  transform:translateY(-50%);
+}
+
+.txt:hover {
+  animation-play-state: paused;
+}
+
+.txt {
+  white-space: nowrap;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0%{
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

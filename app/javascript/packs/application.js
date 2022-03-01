@@ -14,3 +14,9 @@ ActiveStorage.start()
 
 import "controllers"
 import "bootstrap"
+
+import { home } from './home';
+
+document.addEventListener('turbolinks:load', () => {
+  home();
+});
