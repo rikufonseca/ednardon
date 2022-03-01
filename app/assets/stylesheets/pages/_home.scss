@@ -13,11 +13,11 @@
  padding: 0.6rem;
 }
 
-#box {
+.box {
   display: flex;
   overflow: hidden;
   width: 100vw;
-  height: 1.8em;
+  // height: 1.8em;
   position: absolute;
   border-bottom: 1px solid black;
   top: 8.6%;
@@ -31,6 +31,9 @@
 
 .txt {
   white-space: nowrap;
+}
+
+.moveit {
   animation: slide 10s linear infinite;
 }
 
@@ -39,6 +42,27 @@
     transform: translate(0,0);
   }
   100% {
-    transform: translate(-100%, 0);
+    transform: translate(-50%, 0);
   }
+}
+
+.loop-holder {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.loop-holder__text {
+    animation: textLoop 20s linear infinite;
+    font-size: 2vw;
+    padding-right: .35em;
+}
+@keyframes textLoop {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
 }
