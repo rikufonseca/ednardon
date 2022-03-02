@@ -1,6 +1,6 @@
 <div class="nav-bar">
-  <div class="links" id="graphist">
-    <%= link_to "ÉDOUARD NARDON", root_path(anchor:"graphist"), class:"ed" %>
+  <div class="links">
+    <%= link_to "ÉDOUARD NARDON", root_path(anchor:"up"), class:"ed" %>
     <%= link_to "INFORMATION", root_path(anchor: "description"), class:"info" %>
   </div>
   <div class="loop-holder">
@@ -12,5 +12,15 @@
     </div>
   </div>
 </div>
-<div class="carrousel"></div>
-<div id="description"> HELLO, MY NAME IS ÉDOUARD NARDON. I AM A CREATIVE DIRECTOR BASED IN NEW YORK CITY. I SPECIALIZE IN ART, FASHION AND BEAUTY PROJECTS. FOR ANY ENQUIRIES, PLEASE SEND ME AN EMAIL <a href = "mailto: edouardnardon@gmail.com" class="mail">HERE</a> </div>
+<div class="carrousel">
+</div>
+<div id="description" class="shrink"> 
+  <p class="txt">HELLO, MY NAME IS ÉDOUARD NARDON. I AM A CREATIVE DIRECTOR BASED IN NEW YORK CITY. I SPECIALIZE IN ART, FASHION AND BEAUTY PROJECTS. FOR ANY ENQUIRIES, PLEASE SEND ME AN EMAIL
+  </p>
+  <a href = "mailto:edouardnardon@gmail.com" class="mail txt">HERE</a> 
+</div>
+<div class="back">
+  <%= link_to root_path(anchor:"up") do %>
+    <%= image_tag("arrow.png", width: 90, height: 90) %>
+  <% end %>
+</div>

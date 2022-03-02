@@ -5,6 +5,7 @@
 	top: 0;
   z-index: 3;
   background-color: white;
+  font-family: 'EB Garamond', 'serif';
 }
 
 .links {
@@ -60,4 +61,37 @@
   background-color: rgba(17, 0, 255, 0.171);
   border-bottom: 1px solid black;
   z-index: 1;
+}
+
+.shrink {
+  font-size: 6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.txt {
+  width: 68vw;
+  line-height: 7rem;
+  margin-top: 136px;
+}
+
+.mail {
+  color: black;
+  text-decoration-style: dotted;
+  margin-top: -1rem;
+  text-decoration-thickness: 0.3rem;
+  text-underline-offset: 0.6rem;
+  margin-bottom: 24vw;
+}
+
+.mail:hover {
+  text-decoration-line: none;
+  color:blue;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
 }
