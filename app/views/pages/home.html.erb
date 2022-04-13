@@ -14,17 +14,18 @@
 </div>
 <div class="carrousel">
 </div>
-<div class="down" id="description"> </div>
-<div class="all-pics">
- <%= image_tag("HELLOVECTO-1.png", class: "img-one") %> <br>
- <%= image_tag("my-name-is.png", class: "img-two") %> <br>
- <%= image_tag("edouard=nardon.png", class: "img-three") %> <br>
- <%= image_tag("iam.png", class: "img-four") %> <br>
- <%= image_tag("basedinny.png", class: "img-five") %> <br>
- <%= image_tag("foranyenquiries.png", class: "img-six") %> <br>
- <%= image_tag("pleasesend.png", class: "img-seven") %> <br>
- <a href = "mailto:edouardnardon@gmail.com" class="mail"><%= image_tag("here.png") %></a>
- </div>
+<div class="down" id="description">
+</div>
+<%# <div class="all-pics" id="pics"> %>
+  <%= image_tag("HELLOVECTO-1.png", class: "img-one img") %> <br>
+  <%= image_tag("my-name-is.png", class: "img-two img") %> <br>
+  <%= image_tag("edouard=nardon.png", class: "img-three img") %> <br>
+  <%= image_tag("iam.png", class: "img-four img") %> <br>
+  <%= image_tag("basedinny.png", class: "img-five img") %> <br>
+  <%= image_tag("foranyenquiries.png", class: "img-six  img") %> <br>
+  <%= image_tag("pleasesend.png", class: "img-seven img") %> <br>
+  <a href = "mailto:edouardnardon@gmail.com" class="mail img"><%= image_tag("here.png") %></a>
+<%# </div> %>
 <div class="back">
   <%= link_to root_path(anchor:"up") do %>
     <%= image_tag("arrow.png", width: 90, height: 90) %>
