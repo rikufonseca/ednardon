@@ -1,40 +1,60 @@
 export function home () {
-  const allDiv = document.querySelectorAll(".img");
+  const imgOne = document.querySelector(".img-one");
+  const imgTwo = document.querySelector(".img-two");
+  const imgThree = document.querySelector(".img-three");
+  const imgFour = document.querySelector(".img-four");
+  const imgFive = document.querySelector(".img-five");
+  const imgSix = document.querySelector(".img-six");
+  const imgSeven = document.querySelector(".img-seven");
+  const imgEight = document.querySelector(".mail");
   const startPoint = document.getElementById("description");
 
-   let allDivHeight = [];
+  //const allDivHeight = [];
+  // allDiv.forEach( div => allDivHeight.push(div.offsetHeight));
+  let increaseHeightOne = 62;
+  let increaseHeightTwo = 63;
+  let increaseHeightThree = 62;
+  let increaseHeightFour = 73;
+  let increaseHeightFiveSix = 65;
+  let increaseHeightSeven = 66;
+  let increaseHeightEight = 84;
+
+  
 
    
-   window.addEventListener("scroll", function(){
-    const startPointPosition = startPoint.offsetTop;
-    console.log(startPointPosition);
- 
-    allDiv.forEach( div => allDivHeight.push(div.offsetHeight));
-    console.log(allDivHeight);
-    console.log(allDivHeight[0]);
-    
+  window.addEventListener("scroll", function(){
+    const startPointPosition = startPoint.offsetTop;   
+    console.log(startPointPosition); 
 
-    if ( startPointPosition >= 796 && startPointPosition <= 848 ){
-        allDivHeight[0] += 1;
-      } else if ( startPointPosition >= 881 && startPointPosition <= 935){
-        allDivHeight[1] += 1;
+    if ( startPointPosition >= 796 && startPointPosition <= 900 ){
+      imgOne.style.height = increaseHeightOne + "px";
+      increaseHeightOne ++;
+    } else if ( startPointPosition >= 940 && startPointPosition <= 935){
+     // imgTwo.style.height = increaseHeightTwo + "px";
+     // increaseHeightTwo ++;
     } else if ( startPointPosition >= 972 && startPointPosition <= 1031){
-        allDivHeight[2] += 1;
+    //  imgThree.style.height = increaseHeightThree + "px";
+    //  increaseHeightThree ++;
     } else if (startPointPosition >= 1070 && startPointPosition <= 1121){
-        allDivHeight[3] += 1;
+    //  imgFour.style.height = increaseHeightFour + "px";
+    //  increaseHeightFour ++;
     } else if (startPointPosition >= 1156 && startPointPosition <= 1209){
-        allDivHeight[4] += 1;
+    //  imgFive.style.height = increaseHeightFiveSix + "px";
+    //  increaseHeightFiveSix ++;
     } else if (startPointPosition >= 1245 && startPointPosition <= 1303){
-       allDivHeight[5] += 1;
+    //  imgSix.style.height = increaseHeightFiveSix + "px";
+    //  increaseHeightFiveSix ++;
     } else if (startPointPosition >= 1340 && startPointPosition <= 1394){
-      allDivHeight[6] += 1;
+    //  imgSeven.style.height = increaseHeightSeven + "px";
+    //  increaseHeightSeven ++;
     } else if (startPointPosition >= 1433 && startPointPosition <= 1508){
-      allDivHeight[7] += 1;
+    //  imgEight.style.height = increaseHeightEight + "px";
+    //  increaseHeightEight ++;
     } else {
-      console.log("nothing");
+      // increaseHeight = 84;
     };
-
-   });
+    
+  });
 
 
 
