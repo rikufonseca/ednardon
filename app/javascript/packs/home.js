@@ -11,7 +11,6 @@ export function home () {
   //increaseHeightOne ++ ; };
   let animation = gsap.fromTo(".img-one", {scaleY:1},{scaleY:1.5}, 0);
   
-  
   ScrollTrigger.create({
     trigger: ".down",
     start: "top top += 47px",
@@ -19,6 +18,83 @@ export function home () {
     markers: {startColor: "black", endColor: "black"},
     scrub: true,
     animation: animation,
+  });
+
+  let animation1 = gsap.fromTo(".img-two", {scaleY:1, scaleX:1},{scaleY:1.5, scaleX:1}, 0);
+
+  ScrollTrigger.create({
+    trigger: ".img-one",
+    start: "top top += 47px",
+    end: "bottom 47px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation1,
+  });
+
+  let animation2 = gsap.fromTo(".img-three", {scaleY:1, scaleX:1},{scaleY:1.5, scaleX:1}, 0);
+
+  ScrollTrigger.create({
+    trigger: ".img-two",
+    start: "top top += 47px",
+    end: "bottom 47px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation2,
+  });
+
+  let animation3 = gsap.fromTo(".img-four", {scaleY:1, scaleX:1},{scaleY:1.5, scaleX:1}, 0);
+
+  ScrollTrigger.create({
+    trigger: ".img-three",
+    start: "top top += 47px",
+    end: "bottom 47px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation3,
+  });
+
+  let animation4 = gsap.fromTo(".img-five", {scaleY:1, scaleX:1},{scaleY:1.5, scaleX:1}, 0);
+
+  ScrollTrigger.create({
+    trigger: ".img-four",
+    start: "top top += 47px",
+    end: "bottom 47px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation4,
+  });
+
+  let animation5 = gsap.fromTo(".img-six", {scaleY:1, scaleX:1},{scaleY:1.5, scaleX:1}, 0);
+
+  ScrollTrigger.create({
+    trigger: ".img-five",
+    start: "top top += 47px",
+    end: "bottom 47px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation5,
+  });
+
+  let animation6 = gsap.fromTo(".img-seven", {scaleY:1, scaleX:1},{scaleY:1.5, scaleX:1}, 0);
+
+  ScrollTrigger.create({
+    trigger: ".img-six",
+    start: "top top += 47px",
+    end: "bottom 47px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation6,
+  });
+
+  let animation7 = gsap.fromTo(".img-eight", {scaleY:1, scaleX:1},{scaleY:1.5, scaleX:1}, 0);
+
+  ScrollTrigger.create({
+    trigger: ".img-seven",
+    start: "top top += 47px",
+    end: "bottom 47px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation7,
   });
 
   //const imgTwo = document.querySelector(".img-two");
