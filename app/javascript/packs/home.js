@@ -9,11 +9,7 @@ export function home () {
 
   //let animation = function () { //imgOne.style.height = //increaseHeightOne + "px";
   //increaseHeightOne ++ ; };
-  let animation = gsap.to(".img-one", {
-    scaleY: 0.5,
-    transformOrigin: "down center", 
-    ease: "none"
-  });
+  let animation = gsap.fromTo(".img-one", {scaleY:1},{scaleY:1.5}, 0);
   
   
   ScrollTrigger.create({
