@@ -4,19 +4,21 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export function home () {
+  const imgOne = document.querySelector(".img-one");
+  let increaseHeightOne = 62;
 
-  let animation = gsap.to(".svg-one", { scaleY: 3});
+  let animation = function () { imgOne.style.height = increaseHeightOne + "px";
+  increaseHeightOne ++ ; };
   
   ScrollTrigger.create({
-    trigger: ".all-pics",
-    start: "top 300px",
-    end: "bottom bottom -= 100px",
+    trigger: ".down",
+    start: "top top += 55px",
+    end: "bottom 55px",
     markers: {startColor: "black", endColor: "black"},
     scrub: true,
-    animation: animation
+    animation: animation,
   });
 
-  //const imgOne = document.querySelector(".img-one");
   //const imgTwo = document.querySelector(".img-two");
   //const imgThree = document.querySelector(".img-three");
   //const imgFour = document.querySelector(".img-four");
@@ -28,7 +30,7 @@ export function home () {
 //
   ////const allDivHeight = [];
   //// allDiv.forEach( div => allDivHeight.push(div.offsetHeight));
-  //let increaseHeightOne = 62;
+  //
   //let increaseHeightTwo = 63;
   //let increaseHeightThree = 62;
   //let increaseHeightFour = 73;
@@ -44,8 +46,7 @@ export function home () {
   //  console.log(startPointPosition); 
 //
   //  if ( startPointPosition >= 796 && startPointPosition <= 900 ){
-  //    imgOne.style.height = increaseHeightOne + "px";
-  //    increaseHeightOne ++;
+  //    
   //  } else if ( startPointPosition >= 940 && startPointPosition <= 935){
   //    imgTwo.style.height = increaseHeightTwo + "px";
   //    increaseHeightTwo ++;
