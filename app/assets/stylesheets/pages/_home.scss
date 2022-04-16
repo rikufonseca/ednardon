@@ -131,12 +131,9 @@
   position: relative;
 }
 
-.end {
-  visibility: hidden;
-}
-
 svg {
-  width: 50vw;
-  height: auto;
-  max-width: 448px;
+  width: 387px;
+  height: 534px;
+  max-height: 800px;
+  display: block;
 }

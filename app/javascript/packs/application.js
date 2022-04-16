@@ -7,16 +7,13 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
-import gsap from "gsap"
-import MorphSVGPlugin from "gsap/MorphSVGPlugin.js"
-import ScrollTrigger from "gsap/ScrollTrigger.js"
+
 
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-gsap.registerPlugin(MorphSVGPlugin, ScrollTrigger)
-gsap.start()
+
 
 
 

@@ -1,5 +1,23 @@
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 export function home () {
+  let animation = gsap.from(".svg-one", {
+    scaleY: 1,
+    ease: "none"
+  });
   
+  ScrollTrigger.create({
+    trigger: ".down",
+    start: "top 300px",
+    end: "bottom bottom -= 100px",
+    markers: {startColor: "black", endColor: "black"},
+    scrub: true,
+    animation: animation
+  });
+
   //const imgOne = document.querySelector(".img-one");
   //const imgTwo = document.querySelector(".img-two");
   //const imgThree = document.querySelector(".img-three");
