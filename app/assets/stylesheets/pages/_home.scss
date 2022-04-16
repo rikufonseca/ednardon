@@ -128,12 +128,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  display:block;
+  height: 70vh;
 }
 
-svg {
-  width: 387px;
-  height: 534px;
+.svg-one {
+  width: 0px;
+  height: 0px;
   max-height: 800px;
   display: block;
 }

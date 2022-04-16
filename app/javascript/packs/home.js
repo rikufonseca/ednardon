@@ -4,13 +4,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export function home () {
-  let animation = gsap.from(".svg-one", {
-    scaleY: 1,
-    ease: "none"
-  });
+
+  let animation = gsap.to(".svg-one", { scaleY: 3});
   
   ScrollTrigger.create({
-    trigger: ".down",
+    trigger: ".all-pics",
     start: "top 300px",
     end: "bottom bottom -= 100px",
     markers: {startColor: "black", endColor: "black"},
