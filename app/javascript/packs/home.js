@@ -4,16 +4,22 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export function home () {
-  const imgOne = document.querySelector(".img-one");
-  let increaseHeightOne = 62;
+ // const imgOne = document.//querySelector(".img-one");
+ // let increaseHeightOne = 62;
 
-  let animation = function () { imgOne.style.height = increaseHeightOne + "px";
-  increaseHeightOne ++ ; };
+  //let animation = function () { //imgOne.style.height = //increaseHeightOne + "px";
+  //increaseHeightOne ++ ; };
+  let animation = gsap.to(".img-one", {
+    scaleY: 0.5,
+    transformOrigin: "down center", 
+    ease: "none"
+  });
+  
   
   ScrollTrigger.create({
     trigger: ".down",
-    start: "top top += 55px",
-    end: "bottom 55px",
+    start: "top top += 47px",
+    end: "bottom 47px",
     markers: {startColor: "black", endColor: "black"},
     scrub: true,
     animation: animation,
