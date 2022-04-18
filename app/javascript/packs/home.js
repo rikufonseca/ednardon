@@ -4,11 +4,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export function home () {
- // const imgOne = document.//querySelector(".img-one");
- // let increaseHeightOne = 62;
-
-  //let animation = function () { //imgOne.style.height = //increaseHeightOne + "px";
-  //increaseHeightOne ++ ; };
   let animation = gsap.fromTo(".img-one", {scaleY:1},{scaleY:1.5}, 0);
   
   ScrollTrigger.create({
@@ -97,32 +92,25 @@ export function home () {
     animation: animation7,
   });
 
-  //const imgTwo = document.querySelector(".img-two");
-  //const imgThree = document.querySelector(".img-three");
-  //const imgFour = document.querySelector(".img-four");
-  //const imgFive = document.querySelector(".img-five");
-  //const imgSix = document.querySelector(".img-six");
-  //const imgSeven = document.querySelector(".img-seven");
-  //const imgEight = document.querySelector(".mail");
-  //const startPoint = document.getElementById("description");
-//
-  ////const allDivHeight = [];
-  //// allDiv.forEach( div => allDivHeight.push(div.offsetHeight));
-  //
-  //let increaseHeightTwo = 63;
-  //let increaseHeightThree = 62;
-  //let increaseHeightFour = 73;
-  //let increaseHeightFiveSix = 65;
-  //let increaseHeightSeven = 66;
-  //let increaseHeightEight = 84;
-//
-  //
-//
-  // 
-  //window.addEventListener("scroll", function(){
-  //  const startPointPosition = startPoint.offsetTop;   
-  //  console.log(startPointPosition); 
-//
+    const one = document.querySelector("one");
+    const two = document.querySelector(".img-two");
+    const three = document.querySelector(".img-three");
+    const four = document.querySelector(".img-four");
+    const five = document.querySelector(".img-five");
+    const six = document.querySelector(".img-six");
+    const seven = document.querySelector(".img-seven");
+    const eight = document.querySelector(".mail");
+    const startPoint = document.getElementById("description");
+   
+
+  window.addEventListener("scroll", function(){
+    const startPointPosition = startPoint.offsetTop;   
+     console.log(startPointPosition); 
+    const startPointPositionHeight = startPoint.offsetHeight;
+    console.log(startPointPositionHeight);
+    
+
+  });
   //  if ( startPointPosition >= 796 && startPointPosition <= 900 ){
   //    
   //  } else if ( startPointPosition >= 940 && startPointPosition <= 935){
@@ -151,7 +139,7 @@ export function home () {
   //  };
   //  
   //});
-//
+
 
 
 
@@ -167,6 +155,4 @@ export function home () {
     //allDivPosition = [];
     //allDivHeight = [];
    //)
-
 }
- 
