@@ -92,7 +92,7 @@ export function home () {
     animation: animation7,
   });
 
-    const one = document.querySelector("one");
+    const one = document.querySelector(".one");
     const two = document.querySelector(".img-two");
     const three = document.querySelector(".img-three");
     const four = document.querySelector(".img-four");
@@ -100,18 +100,16 @@ export function home () {
     const six = document.querySelector(".img-six");
     const seven = document.querySelector(".img-seven");
     const eight = document.querySelector(".mail");
-    const startPoint = document.getElementById("description");
    
 
   window.addEventListener("scroll", function(){
-    const startPointPosition = startPoint.offsetTop;   
-     console.log(startPointPosition); 
-    const startPointPositionHeight = startPoint.offsetHeight;
-    console.log(startPointPositionHeight);
-    
+    const onePosition = one.getBoundingClientRect();
+    const y = onePosition.top;
 
-  });
-  //  if ( startPointPosition >= 796 && startPointPosition <= 900 ){
+ 
+     if ( y <= 127.79545593261719 && y >= 25.25 ){ 
+       one.style.fontVariationSettings("YTRA") ++;
+     };
   //    
   //  } else if ( startPointPosition >= 940 && startPointPosition <= 935){
   //    imgTwo.style.height = increaseHeightTwo + "px";
@@ -139,20 +137,5 @@ export function home () {
   //  };
   //  
   //});
-
-
-
-
-    //if ( allDivPosition.some( item => item === startPointPosition) {
-    //  console.log('Boom !');
-    //// const newHeight = allDivHeight + 1;
-    //// allDiv.style.height = newHeight + "px";
-    //} else {
-    //  console.log('Baam !')
-    //// const newHeight = allDivHeight - 1;
-    //// allDiv.style.height = newHeight - "px";
-    //}
-    //allDivPosition = [];
-    //allDivHeight = [];
-   //)
+  });
 }
