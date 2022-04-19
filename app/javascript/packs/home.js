@@ -93,49 +93,29 @@ export function home () {
   });
 
     const one = document.querySelector(".one");
-    const two = document.querySelector(".img-two");
-    const three = document.querySelector(".img-three");
-    const four = document.querySelector(".img-four");
-    const five = document.querySelector(".img-five");
-    const six = document.querySelector(".img-six");
-    const seven = document.querySelector(".img-seven");
-    const eight = document.querySelector(".mail");
-   
+  //  const two = document.querySelector(".img-two");
+  //  const three = document.querySelector(".img-three");
+  //  const four = document.querySelector(".img-four");
+  //  const five = document.querySelector(".img-five");
+  //  const six = document.querySelector(".img-six");
+  //  const seven = document.querySelector(".img-seven");
+  //  const eight = document.querySelector(".mail");
+
+    CSSStyleDeclaration = getComputedStyle(one);
+    const font = CSSStyleDeclaration.fontVariationSettings;
+    console.log(font);
+    const fontAxis = font.getPropertyValue("YTRA");
+    console.log(fontAxis);
+
 
   window.addEventListener("scroll", function(){
     const onePosition = one.getBoundingClientRect();
     const y = onePosition.top;
+   
 
- 
-     if ( y <= 127.79545593261719 && y >= 25.25 ){ 
-       one.style.fontVariationSettings("YTRA") ++;
+     if ( y <= 127.79545593261719 && y >= 25.25 ){   
+       set += 0.1;
      };
-  //    
-  //  } else if ( startPointPosition >= 940 && startPointPosition <= 935){
-  //    imgTwo.style.height = increaseHeightTwo + "px";
-  //    increaseHeightTwo ++;
-  //  } else if ( startPointPosition >= 972 && startPointPosition <= 1031){
-  //     imgThree.style.height = increaseHeightThree + "px";
-  //     increaseHeightThree ++;
-  //  } else if (startPointPosition >= 1070 && startPointPosition <= 1121){
-  //  //  imgFour.style.height = increaseHeightFour + "px";
-  //  //  increaseHeightFour ++;
-  //  } else if (startPointPosition >= 1156 && startPointPosition <= 1209){
-  //  //  imgFive.style.height = increaseHeightFiveSix + "px";
-  //  //  increaseHeightFiveSix ++;
-  //  } else if (startPointPosition >= 1245 && startPointPosition <= 1303){
-  //  //  imgSix.style.height = increaseHeightFiveSix + "px";
-  //  //  increaseHeightFiveSix ++;
-  //  } else if (startPointPosition >= 1340 && startPointPosition <= 1394){
-  //  //  imgSeven.style.height = increaseHeightSeven + "px";
-  //  //  increaseHeightSeven ++;
-  //  } else if (startPointPosition >= 1433 && startPointPosition <= 1508){
-  //  //  imgEight.style.height = increaseHeightEight + "px";
-  //  //  increaseHeightEight ++;
-  //  } else {
-  //    // increaseHeight = 84;
-  //  };
-  //  
-  //});
-  });
+    });
+
 }
