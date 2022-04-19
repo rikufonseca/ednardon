@@ -101,20 +101,26 @@ export function home () {
   //  const seven = document.querySelector(".img-seven");
   //  const eight = document.querySelector(".mail");
 
-    CSSStyleDeclaration = getComputedStyle(one);
+    const CSSStyleDeclaration = getComputedStyle(one);
     const font = CSSStyleDeclaration.fontVariationSettings;
-    console.log(font);
-    const fontAxis = font.getPropertyValue("YTRA");
-    console.log(fontAxis);
-
-
+    
   window.addEventListener("scroll", function(){
     const onePosition = one.getBoundingClientRect();
     const y = onePosition.top;
-   
+    
+    const getByKey = (key) => {
+      let keyValues = new Map();
+      let tempArr = font.split(',');
+      tempArr.forEach(x => {
+        let keyVal = x.trim().split(' ');
+        keyValues.set(keyVal[0], keyVal[1]);
+      });
+      keyValues.get(key);
+    }
 
-     if ( y <= 127.79545593261719 && y >= 25.25 ){   
-       set += 0.1;
+     if ( y <= 127.79545593261719 && y >= 25.25 ){ 
+       let value = getByKey('"YTRA"');
+       value ++;
      };
     });
 
