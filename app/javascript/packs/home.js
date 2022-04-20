@@ -100,31 +100,29 @@ export function home () {
   //  const six = document.querySelector(".img-six");
   //  const seven = document.querySelector(".img-seven");
   //  const eight = document.querySelector(".mail");
-
-    const fontProp = one.style.var(--YTRA);
-    console.log(fontProp);
-  
+  let fontProp = one.style.fontVariationSettings = '"wght" 76.9721, "wdth" 437.395246, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" 908.333';
+  console.log(fontProp);
     
   window.addEventListener("scroll", function(){
     const onePosition = one.getBoundingClientRect();
     const y = onePosition.top;
+
     
-  //  const getByKey = (key) => {
-  //    let keyValues = new Map();
-  //    console.log(keyValues);
-  //    let tempArr = font.split(',');
-  //    console.log(tempArr);
-  //    tempArr.forEach(x => {
-  //      let keyVal = x.trim().split(' ');
-  //      keyValues.set(keyVal[0], keyVal[1]);
-  //    });
-  //    keyValues.get(key);
-  //  }
-//
-  //   if ( y <= 127.79545593261719 && y >= 25.25 ){ 
-  //     let value = getByKey('"YTRA"');
-  //     value ++;
-  //   };
+//  const getByKey = (key) => {
+//    let keyValues = new Map();
+//    let tempArr = fontProp.split(',');
+//    console.log(tempArr);
+//    tempArr.forEach(x => {
+//      let keyVal = x.trim().split(' ');
+//      keyValues.set(keyVal[0], keyVal[1]);
+//    });
+//    return keyValues.get(key);
+//  }
+//  let value = getByKey('"YTRA"');
+
+  if ( y <= 127.79545593261719 && y >= 25.25 ){ 
+       
+    };
+
   });
-//
 }
