@@ -139,10 +139,13 @@ img {
 }
 
 .test {
+  font-variation-settings: "wght" 76.9721, "wdth" 437.395246, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--YTRA);
+  --YTRA: 908.333;
+}
+
+.be {
   font-size: 5.5rem;
   line-height: 1.2;
   font-family: 'vrf';
-  font-variation-settings: "wght" 76.9721, "wdth" 437.395246, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" 908.333;
   font-weight: 60;
-  
 }
