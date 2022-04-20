@@ -1,7 +1,7 @@
 // Specific CSS for your home-page
 .nav-bar {
   position: -webkit-sticky;
-	position: sticky;
+	position: fixed;
 	top: 0;
   z-index: 3;
   background-color: white;
@@ -58,19 +58,16 @@
 }
 
 .carrousel {
-  height: 90vh;
+  height: 100vh;
   background-color: rgba(17, 0, 255, 0.171);
   border-bottom: 1px solid black;
-  z-index: 1;
+  z-index: 5;
 }
 
 
 .down {
   width: 100%;
   height: 130px;
-  position: sticky;
-  top: 0;
-  background-color: aqua;
 }
 
 .mail:hover {
@@ -84,58 +81,9 @@
   top: 449%;
 }
 
-.img-one {
-  height: 94px;
-  width: 222px;
-}
-
-.img-two {
-  height: 85px;
-  width: 455px;
-}
-
-.img-three {
-  height: 113px;
-  width: 757px;
-}
-
-.img-four {
-  height: 100px;
-  width: 1119px;
-}
-
-.img-five {
-    height: 108px;
-    width: 884px;
-}
-
-.img-six {
-  height: 99px;
-  width: 671px;
-}
-
-.img-seven {
-  height: 98px;
-  width: 926px;
-}
-.img-eight {
-  height: 107px;
-}
-
 .mail {
   height: 144px;
   width: 246px;
-}
-
-.all-pics {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-img {
-  margin-top: 1.1rem;
 }
 
 .be {
@@ -143,4 +91,15 @@ img {
   line-height: 1.2;
   font-family: 'vrf';
   font-weight: 60;
+}
+
+.test {
+  color: black;
+  position: fixed;
+  top: var(--pos);
+  transform: translateY(-100%);
+  width: 100%;
+  --pos: 0;
+  font-variation-settings: "wght" 76.9721, "wdth" 437.395246, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+  --ytra: 908.333;
 }
