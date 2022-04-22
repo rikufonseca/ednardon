@@ -100,11 +100,10 @@
   transform: translateY(-100%);
   width: 100%;
   // --pos: 0;
-  font-variation-settings: "wght" 76.9721, "wdth" 402, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" 900;
+  font-variation-settings: "wght" 60, "wdth" 300, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" 650;
 }
 
 .line-grow {
-  font-variation-settings: "wght" 76.9721, "wdth" 402, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
-  --ytra: 900;
-  font-size: 5.5rem;
+  font-variation-settings: "wght" 60, "wdth" 300, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+  --ytra: 650;
 }
