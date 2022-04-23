@@ -28,7 +28,6 @@ export function home () {
   window.addEventListener("wheel", function(event){
     let scrollPosition =
     (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-    console.log(scrollPosition);
 
     if (event.deltaY > 0){
       if (scrollPosition > 0.225){
@@ -103,4 +102,9 @@ export function home () {
       ten.style.setProperty("--ytra", tenHeight > 760 ? tenHeight -= 10 : tenHeight = 760);
     }
   });
+
+
+
+
+  console.log('Riku&Lolo => CodeGameBreakers 🤸‍♀️🖤🤸‍♂️');
 }
