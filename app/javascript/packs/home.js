@@ -1,6 +1,5 @@
 export function home () {  
   let lines = document.querySelectorAll(".home-line");
-  // lines = Array.prototype.slice.call(lines);
 
   const one = lines[0];
   const two = lines[1];
