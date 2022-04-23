@@ -13,16 +13,16 @@ export function home () {
   const nine = lines[8];
   const ten = lines[9];
 
-  let oneHeight = 300;
-  let twoHeightVar = 400;
-  let threeHeightVar = 400;
-  let fourHeightVar = 400;
-  let fiveHeightVar = 400;
-  let sixHeightVar = 400;
-  let sevenHeightVar = 400;
-  let eightHeightVar = 400;
-  let nineHeightVar = 400;
-  let tenHeightVar = 400;
+  let oneHeight = 760;
+  let twoHeight = 760;
+  let threeHeight = 400;
+  let fourHeight = 400;
+  let fiveHeight = 400;
+  let sixHeight = 400;
+  let sevenHeight = 400;
+  let eightHeight = 400;
+  let nineHeight = 400;
+  let tenHeight = 400;
 
   
   
@@ -31,9 +31,9 @@ export function home () {
 
     let scrollPosition =
     (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-    // console.log(scrollPosition);
+    console.log(scrollPosition);
 
-    console.log(event.deltaY);
+    // console.log(event.deltaY);
 
     // if (scrollPosition >= 0.56) {
     //   scrollDirection(ten);
@@ -70,19 +70,40 @@ export function home () {
     // if (scrollPosition >= 0.25) {
     //   scrollDirection(two);
     // } 
-    
-    
-      if (event.deltaY < 0 && scrollPosition < 0.28) {
+
+    if (event.deltaY > 0){
+      if (scrollPosition > 0.27){
+        two.classList.remove('static-line');
+        two.classList.add('line-two');
+        two.style.setProperty("--ytra", twoHeight < 1200 ? twoHeight += 10 : twoHeight = 1200);  
+      } 
+      
+      if (scrollPosition > 0.225){
         one.classList.remove('static-line');
-        one.classList.add('line-grow');
-        one.style.setProperty("--ytra", oneHeight > 300 ? oneHeight -= 10 : oneHeight = 300);
-      } else if (event.deltaY > 0 && scrollPosition > 0.22) {
-        one.classList.remove('static-line');
-        one.classList.add('line-grow');
+        one.classList.add('line-one');
         one.style.setProperty("--ytra", oneHeight < 1200 ? oneHeight += 10 : oneHeight = 1200);
       }
-      
-      
+    }
+
+
+    // if (event.deltaY < 0 && scrollPosition < 0.335) {
+    //   two.classList.remove('static-line');
+    //   two.classList.add('line-two');
+    //   two.style.setProperty("--ytra", twoHeight > 760 ? twoHeight -= 10 : twoHeight = 760);
+    // } else if (event.deltaY > 0 && scrollPosition > 0.27) {
+    //   two.classList.remove('static-line');
+    //   two.classList.add('line-two');
+    //   two.style.setProperty("--ytra", twoHeight < 1200 ? twoHeight += 10 : twoHeight = 1200);
+    // }
     
+    // if (event.deltaY < 0 && scrollPosition < 0.28) {
+    //   one.classList.remove('static-line');
+    //   one.classList.add('line-one');
+    //   one.style.setProperty("--ytra", oneHeight > 760 ? oneHeight -= 10 : oneHeight = 760);
+    // } else if (event.deltaY > 0 && scrollPosition > 0.225) {
+    //   one.classList.remove('static-line');
+    //   one.classList.add('line-one');
+    //   one.style.setProperty("--ytra", oneHeight < 1200 ? oneHeight += 10 : oneHeight = 1200);
+    // }
   });
 }
