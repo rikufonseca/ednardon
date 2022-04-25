@@ -9,8 +9,6 @@ export function home () {
   const six = lines[5];
   const seven = lines[6];
   const eight = lines[7];
-  const nine = lines[8];
-  const ten = lines[9];
 
   let oneHeight = 760;
   let twoHeight = 760;
@@ -20,14 +18,13 @@ export function home () {
   let sixHeight = 760;
   let sevenHeight = 760;
   let eightHeight = 760;
-  let nineHeight = 760;
-  let tenHeight = 760;
 
   
   
   window.addEventListener("wheel", function(event){
     let scrollPosition =
     (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+    console.log(scrollPosition);
 
     if (event.deltaY > 0){
       if (scrollPosition > 0.225){
@@ -36,59 +33,48 @@ export function home () {
         one.style.setProperty("--ytra", oneHeight < 1200 ? oneHeight += 10 : oneHeight = 1200);
       }
 
-      if (scrollPosition > 0.255){
+      if (scrollPosition > 0.30){
         two.classList.remove('static-line');
         two.classList.add('line-two');
         two.style.setProperty("--ytra", twoHeight < 1200 ? twoHeight += 10 : twoHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.285){
+      if (scrollPosition > 0.354){
         three.classList.remove('static-line');
         three.classList.add('line-three');
         three.style.setProperty("--ytra", threeHeight < 1200 ? threeHeight += 10 : threeHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.315){
+      if (scrollPosition > 0.407){
         four.classList.remove('static-line');
         four.classList.add('line-four');
         four.style.setProperty("--ytra", fourHeight < 1200 ? fourHeight += 10 : fourHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.345){
+      if (scrollPosition > 0.461){
         five.classList.remove('static-line');
         five.classList.add('line-five');
         five.style.setProperty("--ytra", fiveHeight < 1200 ? fiveHeight += 10 : fiveHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.375){
+      if (scrollPosition > 0.512){
         six.classList.remove('static-line');
         six.classList.add('line-six');
         six.style.setProperty("--ytra", sixHeight < 1200 ? sixHeight += 10 : sixHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.405){
+      if (scrollPosition > 0.562){
         seven.classList.remove('static-line');
         seven.classList.add('line-seven');
         seven.style.setProperty("--ytra", sevenHeight < 1200 ? sevenHeight += 10 : sevenHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.435){
+      if (scrollPosition > 0.611){
         eight.classList.remove('static-line');
         eight.classList.add('line-eight');
         eight.style.setProperty("--ytra", eightHeight < 1200 ? eightHeight += 10 : eightHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.465){
-        nine.classList.remove('static-line');
-        nine.classList.add('line-nine');
-        nine.style.setProperty("--ytra", nineHeight < 1200 ? nineHeight += 10 : nineHeight = 1200);  
-      } 
-
-      if (scrollPosition > 0.495){
-        ten.classList.remove('static-line');
-        ten.classList.add('line-ten');
-        ten.style.setProperty("--ytra", tenHeight < 1200 ? tenHeight += 10 : tenHeight = 1200);  
-      }
     } else if (event.deltaY < 0){
       one.style.setProperty("--ytra", oneHeight > 760 ? oneHeight -= 10 : oneHeight = 760);
       two.style.setProperty("--ytra", twoHeight > 760 ? twoHeight -= 10 : twoHeight = 760);
@@ -98,13 +84,7 @@ export function home () {
       six.style.setProperty("--ytra", sixHeight > 760 ? sixHeight -= 10 : sixHeight = 760);
       seven.style.setProperty("--ytra", sevenHeight > 760 ? sevenHeight -= 10 : sevenHeight = 760);
       eight.style.setProperty("--ytra", eightHeight > 760 ? eightHeight -= 10 : eightHeight = 760);
-      nine.style.setProperty("--ytra", nineHeight > 760 ? nineHeight -= 10 : nineHeight = 760);
-      ten.style.setProperty("--ytra", tenHeight > 760 ? tenHeight -= 10 : tenHeight = 760);
     }
   });
 
-
-
-
-  console.log('Riku&Lolo => CodeGameBreakers 🤸‍♀️🖤🤸‍♂️');
 }
