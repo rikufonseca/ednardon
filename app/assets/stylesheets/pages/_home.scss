@@ -1,4 +1,3 @@
-// Specific CSS for your home-page
 .nav-bar {
   position: -webkit-sticky;
 	position: fixed;
@@ -87,19 +86,61 @@
 }
 
 .be {
-  font-size: 5.5rem;
-  line-height: 1.2;
+  font-size: 5rem;
+  line-height: 0.5;
   font-family: 'vrf';
-  font-weight: 60;
+  font-weight: 50;
 }
 
-.test {
+.home-line {
   color: black;
-  position: fixed;
+  // position: fixed;
   top: var(--pos);
   transform: translateY(-100%);
   width: 100%;
-  --pos: 0;
-  font-variation-settings: "wght" 76.9721, "wdth" 437.395246, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
-  --ytra: 908.333;
+  // --pos: 0;
+}
+
+.static-line {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" 760;
+}
+
+.line-one {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-two {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-three {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-four {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-five {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-six {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-seven {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-eight {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-nine {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
+}
+
+.line-ten {
+  font-variation-settings: "wght" 50, "wdth" 200, "opsz" 32.4196, "XOPQ" 106.063, "XTRA" 371.5, "YOPQ" 44.4875, "YTLC" 600, "YTSE" 13, "GRAD" 88, "XTCH" 926.111, "YTCH" 1068.3, "YTAS" 808.611, "YTDE" 238.611, "YTUC" 924.583, "YTRA" var(--ytra);
 }
