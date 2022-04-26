@@ -1,5 +1,6 @@
 export function home () {  
   let lines = document.querySelectorAll(".home-line");
+  let body = document.querySelectorAll("body");
 
   const one = lines[0];
   const two = lines[1];
@@ -18,58 +19,56 @@ export function home () {
   let sixHeight = 760;
   let sevenHeight = 760;
   let eightHeight = 760;
-
-  
-  
+ 
   window.addEventListener("wheel", function(event){
     let scrollPosition =
     (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
     console.log(scrollPosition);
 
     if (event.deltaY > 0){
-      if (scrollPosition > 0.225){
+      if (scrollPosition > 0.391){
         one.classList.remove('static-line');
         one.classList.add('line-one');
         one.style.setProperty("--ytra", oneHeight < 1200 ? oneHeight += 10 : oneHeight = 1200);
       }
 
-      if (scrollPosition > 0.30){
+      if (scrollPosition > 0.450){
         two.classList.remove('static-line');
         two.classList.add('line-two');
         two.style.setProperty("--ytra", twoHeight < 1200 ? twoHeight += 10 : twoHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.354){
+      if (scrollPosition > 0.528){
         three.classList.remove('static-line');
         three.classList.add('line-three');
         three.style.setProperty("--ytra", threeHeight < 1200 ? threeHeight += 10 : threeHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.407){
+      if (scrollPosition > 0.605){
         four.classList.remove('static-line');
         four.classList.add('line-four');
         four.style.setProperty("--ytra", fourHeight < 1200 ? fourHeight += 10 : fourHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.461){
+      if (scrollPosition > 0.683){
         five.classList.remove('static-line');
         five.classList.add('line-five');
         five.style.setProperty("--ytra", fiveHeight < 1200 ? fiveHeight += 10 : fiveHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.512){
+      if (scrollPosition > 0.762){
         six.classList.remove('static-line');
         six.classList.add('line-six');
         six.style.setProperty("--ytra", sixHeight < 1200 ? sixHeight += 10 : sixHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.562){
+      if (scrollPosition > 0.842){
         seven.classList.remove('static-line');
         seven.classList.add('line-seven');
         seven.style.setProperty("--ytra", sevenHeight < 1200 ? sevenHeight += 10 : sevenHeight = 1200);  
       } 
 
-      if (scrollPosition > 0.611){
+      if (scrollPosition > 0.917){
         eight.classList.remove('static-line');
         eight.classList.add('line-eight');
         eight.style.setProperty("--ytra", eightHeight < 1200 ? eightHeight += 10 : eightHeight = 1200);  

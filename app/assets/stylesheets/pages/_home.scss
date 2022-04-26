@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-bar {
   position: -webkit-sticky;
 	position: fixed;
@@ -69,7 +73,19 @@
   height: 130px;
 }
 
+.box-two {
+  text-align: center;
+  position: relative;
+  top: -77px;
+} 
+
+.mail:link {
+  border-bottom: 5px dashed;
+  text-decoration: none;
+}
+
 .mail:hover {
+  border-bottom: 5px dashed;
   text-decoration: none;
   color:blue;
 }
@@ -77,11 +93,7 @@
 .back {
   position: absolute;
   left: 48%;
-  top: 449%;
-}
-
-.mail {
-  text-decoration: none;
+  top: 322%;
 }
 
 .be {
