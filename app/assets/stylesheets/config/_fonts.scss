@@ -6,16 +6,8 @@ $body-font: 'Cormorant Garamond', 'serif';
 $headers-font: 'EB Garamond', 'serif';
 
  //To use a font file (.woff) uncomment following lines
-@supports (font-variation-settings: normal){
-   @font-face {
-    font-family: 'vrf';
-    src: font-url('AmstelvarAlpha-VF.woff2') format('woff2');
-    font-style: normal;
-  }
-};
 
 //   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
 //        font-url('FontFile.woff') format('woff'),
 //        font-url('FontFile.ttf') format('truetype')
 // }
-  $my-font: "vrf";

@@ -14,7 +14,6 @@ module Ednardon
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
-    config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
     # Configuration for the application, engines, and railties goes here.
     #
