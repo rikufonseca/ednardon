@@ -35,6 +35,7 @@ gem 'devise'
 gem 'rails_admin', '~> 2.0'
 gem 'carrierwave'
 gem 'cloudinary'
+gem 'greensock-rails', '~> 1.20', '>= 1.20.4.0'
 
 group :development, :test do
   gem 'pry-byebug'
