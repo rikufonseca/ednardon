@@ -101,9 +101,24 @@ html {
   -webkit-tap-highlight-color:transparent;
  }
 
-line {
+.stretchOne, .stretchTwo, .stretchSix, .stretchLast {
   stroke-width: 7.6px;
   stroke: black;
 	fill: none;
   overflow: visible;
 }
+
+.stretchThree{
+  stroke-width: 8px;
+  stroke: black;
+	fill: none;
+  overflow: visible;
+}
+
+.stretchFour, .stretchFive {
+  stroke-width: 7.8px;
+  stroke: black;
+	fill: none;
+  overflow: visible;
+}
+
