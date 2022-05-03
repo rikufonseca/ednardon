@@ -101,19 +101,9 @@ html {
   -webkit-tap-highlight-color:transparent;
  }
 
- .stretch {
-   width: 5.9px;
-   height: 3px;
-   overflow: visible;
- }
-
 line {
-  stroke-width: 5.9px;
+  stroke-width: 7.6px;
   stroke: black;
 	fill: none;
-}
-
-
-.stretch > line.oneOpen {
-  stroke: black;
+  overflow: visible;
 }
