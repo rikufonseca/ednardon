@@ -9,5 +9,5 @@ export function home_myname() {
     .fromTo(".myNameTop", { y: 185, duration: 0 },
       { y: 185, duration: 0.3, ease: "linear" })
 
-    .fromTo(".myNameBottom", { y: 176, duration: 0 }, { y: 176, duration: 0.12, ease: "linear" }, "<");
+    .fromTo(".myNameBottom", { y: 175, duration: 0 }, { y: 175, duration: 0.12, ease: "linear" }, "<");
 }

@@ -101,7 +101,7 @@ html {
   -webkit-tap-highlight-color:transparent;
  }
 
-.stretchTwo, .stretchThreeTwo, .stretchOne {
+.stretchTwo, .stretchThreeTwo, .stretchOne, .stretchFiveTwo, .stretchSixTwo, .stretchNineTwo, .stretchTenTwo, .stretchElevenTwo, .stretchTwelveTwo {
   stroke-width: 7.6px;
   stroke: black;
 	fill: none;
@@ -131,6 +131,20 @@ html {
 
 .stretchFourTwo {
   stroke-width: 7.4px;
+  stroke: black;
+  fill: none;
+  overflow: visible;
+}
+
+.stretchHeightTwo {
+  stroke-width: 7.2px;
+  stroke: black;
+  fill: none;
+  overflow: visible;
+}
+
+.stretchThirtheenTwo, .stretchSevenTwo {
+  stroke-width: 6.8px;
   stroke: black;
   fill: none;
   overflow: visible;
