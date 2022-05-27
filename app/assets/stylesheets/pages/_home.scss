@@ -97,7 +97,7 @@ html {
 }
 
 
-.helloTop, .myNameTop {
+.helloTop, .myNameTop, .edouardTop {
   -webkit-tap-highlight-color:transparent;
  }
 
@@ -108,13 +108,19 @@ html {
   overflow: visible;
 }
 
-.stretchSix, .stretchLast {
+.stretchSix, .stretchLast, .stretchElevenThree {
   stroke-width: 7.8px;
   stroke: black;
   fill: none;
   overflow: visible;
 }
 
+.stretchTwoThree, .stretchFourThree, .stretchFiveThree, .stretchTenThree, .stretchTwelveThree {
+  stroke-width: 7.9px;
+  stroke: black;
+  fill: none;
+  overflow: visible;
+}
 .stretchThree{
   stroke-width: 8px;
   stroke: black;
@@ -144,7 +150,14 @@ html {
 }
 
 .stretchThirtheenTwo, .stretchSevenTwo {
-  stroke-width: 6.8px;
+  stroke-width: 7.7px;
+  stroke: black;
+  fill: none;
+  overflow: visible;
+}
+
+.stretchEightThree, .stretchNineThree {
+  stroke-width: 8.5px;
   stroke: black;
   fill: none;
   overflow: visible;
@@ -154,4 +167,10 @@ svg#Layer_2 {
   position: relative;
   top: -54rem;
   left: 0;
+}
+
+svg#Layer_3 {
+  position: relative;
+  top: -93rem;
+  left:0;
 }

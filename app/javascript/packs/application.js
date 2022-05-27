@@ -31,3 +31,9 @@ import { home_myname } from "./home_myname";
 document.addEventListener('turbolinks:load', () => {
   home_myname();
 });
+
+import { home_edouard } from "./home_edouard";
+
+document.addEventListener('turbolinks:load', () => {
+  home_edouard();
+});
