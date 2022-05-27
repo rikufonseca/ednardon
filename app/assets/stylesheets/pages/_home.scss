@@ -115,13 +115,13 @@ html {
   overflow: visible;
 }
 
-.stretchTwoThree, .stretchFourThree, .stretchFiveThree, .stretchTenThree, .stretchTwelveThree {
+.stretchTwoThree, .stretchFourThree, .stretchFiveThree, .stretchTenThree, .stretchTwelveThree, .stretchFourtheenThree {
   stroke-width: 7.9px;
   stroke: black;
   fill: none;
   overflow: visible;
 }
-.stretchThree{
+.stretchThree, .stretchFourLast {
   stroke-width: 8px;
   stroke: black;
 	fill: none;
@@ -156,7 +156,7 @@ html {
   overflow: visible;
 }
 
-.stretchEightThree, .stretchNineThree {
+.stretchEightThree, .stretchNineThree, .stretchThirtheenThree {
   stroke-width: 8.5px;
   stroke: black;
   fill: none;
@@ -171,6 +171,6 @@ svg#Layer_2 {
 
 svg#Layer_3 {
   position: relative;
-  top: -93rem;
+  top: -94rem;
   left:0;
 }

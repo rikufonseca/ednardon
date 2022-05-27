@@ -17,8 +17,8 @@ export function home_myname() {
 
   ScrollTrigger.create({
     trigger: ".wholeMyName",
-    start: "top 320px",
-    end: "top 128px",
+    start: "top 346px",
+    end: "top 144px",
     markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
