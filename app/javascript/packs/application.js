@@ -43,3 +43,9 @@ import { home_iam } from "./home_iam";
 document.addEventListener('turbolinks:load', () => {
   home_iam();
 });
+
+import { home_based } from "./home_based";
+
+document.addEventListener('turbolinks:load', () => {
+  home_based();
+});
