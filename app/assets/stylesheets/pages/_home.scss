@@ -97,7 +97,7 @@ html {
 }
 
 
-.helloTop, .myNameTop, .edouardTop {
+.helloTop, .myNameTop, .edouardTop, .iAmTop {
   -webkit-tap-highlight-color:transparent;
  }
 
@@ -173,4 +173,10 @@ svg#Layer_3 {
   position: relative;
   top: -94rem;
   left:0;
+}
+
+svg#Layer_4 {
+  position: relative;
+  top: -143rem;
+  left: 0;
 }

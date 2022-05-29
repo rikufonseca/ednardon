@@ -37,3 +37,9 @@ import { home_edouard } from "./home_edouard";
 document.addEventListener('turbolinks:load', () => {
   home_edouard();
 });
+
+import { home_iam } from "./home_iam";
+
+document.addEventListener('turbolinks:load', () => {
+  home_iam();
+});
