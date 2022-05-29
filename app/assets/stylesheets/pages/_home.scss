@@ -101,27 +101,27 @@ html {
   -webkit-tap-highlight-color:transparent;
  }
 
-.stretchTwo, .stretchThreeTwo, .stretchOne, .stretchFiveTwo, .stretchSixTwo, .stretchNineTwo, .stretchTenTwo, .stretchElevenTwo, .stretchTwelveTwo {
+.stretchTwo, .stretchThreeTwo, .stretchOne, .stretchFiveTwo, .stretchSixTwo, .stretchNineTwo, .stretchTenTwo, .stretchElevenTwo, .stretchTwelveTwo, .stretchEightThree, .stretchNineThree, .stretchThirtheenThree {
   stroke-width: 7.6px;
   stroke: black;
 	fill: none;
   overflow: visible;
 }
 
-.stretchSix, .stretchLast, .stretchElevenThree {
+.stretchSix, .stretchLast, .stretchElevenThree, .stretchFourLast, .stretchFourtheenThree {
   stroke-width: 7.8px;
   stroke: black;
   fill: none;
   overflow: visible;
 }
 
-.stretchTwoThree, .stretchFourThree, .stretchFiveThree, .stretchTenThree, .stretchTwelveThree, .stretchFourtheenThree {
+.stretchTwoThree, .stretchFourThree, .stretchFiveThree, .stretchTenThree, .stretchTwelveThree {
   stroke-width: 7.9px;
   stroke: black;
   fill: none;
   overflow: visible;
 }
-.stretchThree, .stretchFourLast {
+.stretchThree {
   stroke-width: 8px;
   stroke: black;
 	fill: none;
@@ -151,13 +151,6 @@ html {
 
 .stretchThirtheenTwo, .stretchSevenTwo {
   stroke-width: 7.7px;
-  stroke: black;
-  fill: none;
-  overflow: visible;
-}
-
-.stretchEightThree, .stretchNineThree, .stretchThirtheenThree {
-  stroke-width: 8.5px;
   stroke: black;
   fill: none;
   overflow: visible;
