@@ -55,3 +55,9 @@ import { home_enquiries } from "./home_enquiries";
 document.addEventListener('turbolinks:load', () => {
   home_enquiries();
 });
+
+import { home_send } from "./home_send";
+
+document.addEventListener('turbolinks:load', () => {
+  home_send();
+});
