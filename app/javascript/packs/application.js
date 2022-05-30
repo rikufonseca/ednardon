@@ -49,3 +49,9 @@ import { home_based } from "./home_based";
 document.addEventListener('turbolinks:load', () => {
   home_based();
 });
+
+import { home_enquiries } from "./home_enquiries";
+
+document.addEventListener('turbolinks:load', () => {
+  home_enquiries();
+});
