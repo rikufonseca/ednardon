@@ -40,7 +40,6 @@ html {
 .loop-holder {
   display: flex;
   white-space: nowrap;
-  overflow: hidden;
   border-bottom: 1px solid black;
 }
 .loop-holder__text {
@@ -77,59 +76,43 @@ a:hover {
   fill:blue;
 }
 
-.back {
-  position: absolute;
-  left: 48%;
-  top: 322%;
-}
-
-
 .helloTop, .myNameTop, .edouardTop, .iAmTop, .basedTop, .enquiriesTop, .sendTop, .hereTop {
   -webkit-tap-highlight-color:transparent;
  }
 
 .stretchTwo, .stretchThreeTwo, .stretchOne, .stretchFiveTwo, .stretchSixTwo, .stretchNineTwo, .stretchTenTwo, .stretchElevenTwo, .stretchTwelveTwo, .stretchEightThree, .stretchNineThree, .stretchThirtheenThree {
   stroke-width: 7.6px;
-  overflow: visible;
 }
 
 .stretchSix, .stretchLast, .stretchElevenThree, .stretchFourLast, .stretchFourtheenThree {
   stroke-width: 7.8px;
-  overflow: visible;
 }
 
 .stretchTwoThree, .stretchFourThree, .stretchFiveThree, .stretchTenThree, .stretchTwelveThree {
   stroke-width: 7.9px;
-  overflow: visible;
 }
 .stretchThree {
   stroke-width: 8px;
-  overflow: visible;
 }
 
 .stretchFour, .stretchFive {
   stroke-width: 7.8px;
-  overflow: visible;
 }
 
 .stretchFourTwo {
   stroke-width: 7.4px;
-  overflow: visible;
 }
 
 .stretchEightTwo, .stretchOneFive {
   stroke-width: 7.2px;
-  overflow: visible;
 }
 
 .stretchThirtheenTwo, .stretchSevenTwo {
   stroke-width: 7.7px;
-  overflow: visible;
 }
 
 .stretchTwoFive {
   stroke-width: 8.7px;
-  overflow: visible;
 }
 
 svg#Layer_2 {
@@ -176,4 +159,11 @@ svg#Layer_8 {
 
 .wholeHere:hover line {
   stroke: blue;
+}
+
+.back {
+  position: relative;
+  top: -310rem;
+  display: flex;
+  justify-content: center;
 }

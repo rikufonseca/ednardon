@@ -67,3 +67,9 @@ import { home_here } from "./home_here";
 document.addEventListener('turbolinks:load', () => {
   home_here();
 });
+
+import { home_that } from "./home_that";
+
+document.addEventListener('turbolinks:load', () => {
+  home_that();
+});
