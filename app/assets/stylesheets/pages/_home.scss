@@ -73,9 +73,8 @@ html {
   height: 70px;
 }
 
-.mail:hover {
-  text-decoration: none;
-  color:blue;
+a:hover {
+  fill:blue;
 }
 
 .back {
@@ -91,63 +90,45 @@ html {
 
 .stretchTwo, .stretchThreeTwo, .stretchOne, .stretchFiveTwo, .stretchSixTwo, .stretchNineTwo, .stretchTenTwo, .stretchElevenTwo, .stretchTwelveTwo, .stretchEightThree, .stretchNineThree, .stretchThirtheenThree {
   stroke-width: 7.6px;
-  stroke: black;
-	fill: none;
   overflow: visible;
 }
 
 .stretchSix, .stretchLast, .stretchElevenThree, .stretchFourLast, .stretchFourtheenThree {
   stroke-width: 7.8px;
-  stroke: black;
-  fill: none;
   overflow: visible;
 }
 
 .stretchTwoThree, .stretchFourThree, .stretchFiveThree, .stretchTenThree, .stretchTwelveThree {
   stroke-width: 7.9px;
-  stroke: black;
-  fill: none;
   overflow: visible;
 }
 .stretchThree {
   stroke-width: 8px;
-  stroke: black;
-	fill: none;
   overflow: visible;
 }
 
 .stretchFour, .stretchFive {
   stroke-width: 7.8px;
-  stroke: black;
-	fill: none;
   overflow: visible;
 }
 
 .stretchFourTwo {
   stroke-width: 7.4px;
-  stroke: black;
-  fill: none;
   overflow: visible;
 }
 
 .stretchEightTwo, .stretchOneFive {
   stroke-width: 7.2px;
-  stroke: black;
-  fill: none;
   overflow: visible;
 }
 
 .stretchThirtheenTwo, .stretchSevenTwo {
   stroke-width: 7.7px;
-  stroke: black;
-  fill: none;
   overflow: visible;
 }
 
 .stretchTwoFive {
   stroke-width: 8.7px;
-  stroke: black;
-  fill: none;
   overflow: visible;
 }
 
@@ -191,4 +172,8 @@ svg#Layer_8 {
   position: relative;
   top: -337rem;
   left: 0;
+}
+
+.wholeHere:hover line {
+  stroke: blue;
 }
