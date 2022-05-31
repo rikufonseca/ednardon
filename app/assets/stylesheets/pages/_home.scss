@@ -2,6 +2,26 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-y: scroll;
+  height: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.col {
+  overflow-y: hidden;
+  height: 100%;
+}
+
 .nav-bar {
   position: -webkit-sticky;
 	position: fixed;
