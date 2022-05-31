@@ -19,7 +19,7 @@ export function home_myname() {
     trigger: ".wholeMyName",
     start: "top 346px",
     end: "top 144px",
-    markers: { startColor: "black", endColor: "black" },
+  //  markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   });

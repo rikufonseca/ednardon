@@ -19,7 +19,7 @@ export function home_hello () {
         trigger: ".wholeHello",
         start: "top 320px",
         end: "top 128px",
-        markers: {startColor: "black", endColor: "black"},
+    //    markers: {startColor: "black", endColor: "black"},
          scrub: true,
         animation: animation
      });

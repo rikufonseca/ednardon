@@ -18,7 +18,7 @@ export function home_edouard() {
     trigger: ".wholeEdouard",
     start: "top 346px",
     end: "top 120px",
-    markers: { startColor: "black", endColor: "black" },
+  //  markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   });

@@ -18,7 +18,7 @@ export function home_based() {
     trigger: ".wholeBased",
     start: "top 387px",
     end: "top 161px",
-    markers: { startColor: "black", endColor: "black" },
+ //   markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   })

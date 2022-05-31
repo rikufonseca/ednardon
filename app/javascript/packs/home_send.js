@@ -18,7 +18,7 @@ export function home_send() {
     trigger: ".wholeSend",
     start: "top 400px",
     end: "top 164px",
-    markers: { startColor: "black", endColor: "black" },
+  //  markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   })

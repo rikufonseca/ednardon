@@ -18,7 +18,7 @@ export function home_enquiries() {
     trigger: ".wholeEnquiries",
     start: "top 395px",
     end: "top 169px",
-    markers: { startColor: "black", endColor: "black" },
+  //  markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   })

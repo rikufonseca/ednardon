@@ -19,7 +19,7 @@ export function home_iam() {
     trigger: ".wholeIAm",
     start: "top 370px",
     end: "top 144px",
-    markers: { startColor: "black", endColor: "black" },
+  //  markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   });

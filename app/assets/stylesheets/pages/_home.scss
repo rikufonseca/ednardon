@@ -73,19 +73,7 @@ html {
   height: 70px;
 }
 
-.box-two {
-  text-align: center;
-  position: relative;
-  top: -77px;
-}
-
-.mail:link {
-  border-bottom: 5px dashed;
-  text-decoration: none;
-}
-
 .mail:hover {
-  border-bottom: 5px dashed;
   text-decoration: none;
   color:blue;
 }
@@ -97,7 +85,7 @@ html {
 }
 
 
-.helloTop, .myNameTop, .edouardTop, .iAmTop, .basedTop {
+.helloTop, .myNameTop, .edouardTop, .iAmTop, .basedTop, .enquiriesTop, .sendTop, .hereTop {
   -webkit-tap-highlight-color:transparent;
  }
 
@@ -196,5 +184,11 @@ svg#Layer_6 {
 svg#Layer_7 {
   position: relative;
   top: -289rem;
+  left: 0;
+}
+
+svg#Layer_8 {
+  position: relative;
+  top: -337rem;
   left: 0;
 }
