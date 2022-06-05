@@ -6,13 +6,16 @@ export function home_that() {
     let scrollPosition =
       (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
 
-    console.log(scrollPosition);
-
     if(event.deltaY > 0){
-      if (scrollPosition > 0.300) {
+      if (scrollPosition > 0.310) {
         all.classList.add("col");
       }
     }
+
+    let screenHeight = document.documentElement.clientHeight;
+
+    console.log(screenHeight);
+
   });
 
 
