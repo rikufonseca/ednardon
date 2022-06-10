@@ -135,47 +135,47 @@ a:hover {
   stroke-width: 8.7px;
 }
 
-svg#Layer_2 {
-  position: relative;
-  top: -54rem;
-  left: 0;
-}
+// svg#Layer_2 {
+//   position: relative;
+//   top: -54rem;
+//   left: 0;
+// }
 
-svg#Layer_3 {
-  position: relative;
-  top: -94rem;
-  left:0;
-}
+// svg#Layer_3 {
+//   position: relative;
+//   top: -94rem;
+//   left:0;
+// }
 
-svg#Layer_4 {
-  position: relative;
-  top: -143rem;
-  left: 0;
-}
+// svg#Layer_4 {
+//   position: relative;
+//   top: -143rem;
+//   left: 0;
+// }
 
-svg#Layer_5 {
-  position: relative;
-  top: -191rem;
-  left: 0;
-}
+// svg#Layer_5 {
+//   position: relative;
+//   top: -191rem;
+//   left: 0;
+// }
 
-svg#Layer_6 {
-  position: relative;
-  top: -240rem;
-  left: 0;
-}
+// svg#Layer_6 {
+//   position: relative;
+//   top: -240rem;
+//   left: 0;
+// }
 
-svg#Layer_7 {
-  position: relative;
-  top: -289rem;
-  left: 0;
-}
+// svg#Layer_7 {
+//   position: relative;
+//   top: -289rem;
+//   left: 0;
+// }
 
-svg#Layer_8 {
-  position: relative;
-  top: -337rem;
-  left: 0;
-}
+// svg#Layer_8 {
+//   position: relative;
+//   top: -337rem;
+//   left: 0;
+// }
 
 .wholeHere:hover line {
   stroke: blue;
@@ -186,4 +186,12 @@ svg#Layer_8 {
   top: -310rem;
   display: flex;
   justify-content: center;
+}
+
+#Layer_1, #Layer_2, #Layer_3, #Layer_4, #Layer_5, #Layer_6, #Layer_7, #Layer_8 {
+  padding: 0;
+}
+
+#test-height {
+  height: 1000px;
 }
