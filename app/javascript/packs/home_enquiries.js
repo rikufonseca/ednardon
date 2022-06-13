@@ -16,8 +16,8 @@ export function home_enquiries() {
 
   ScrollTrigger.create({
     trigger: ".wholeEnquiries",
-    start: "top 60%",
-    end: "top 37%",
+    start: "top 48%",
+    end: "top 16%",
     markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation

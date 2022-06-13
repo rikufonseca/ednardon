@@ -16,8 +16,8 @@ export function home_edouard() {
 
   ScrollTrigger.create({
     trigger: ".wholeEdouard",
-    start: "top 45%",
-    end: "top 22%",
+    start: "top 43%",
+    end: "top 18%",
     markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
