@@ -18,9 +18,9 @@ export function home_here() {
 
   ScrollTrigger.create({
     trigger: ".wholeHere",
-    start: "top 400px",
-    end: "top 174px",
-   // markers: { startColor: "black", endColor: "black" },
+    start: "top 70%",
+    end: "top 47%",
+    markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   });

@@ -17,9 +17,9 @@ export function home_iam() {
 
   ScrollTrigger.create({
     trigger: ".wholeIAm",
-    start: "top 370px",
-    end: "top 144px",
-  //  markers: { startColor: "black", endColor: "black" },
+    start: "top 50%",
+    end: "top 27%",
+    markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   });

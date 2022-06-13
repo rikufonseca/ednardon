@@ -16,9 +16,9 @@ export function home_based() {
 
   ScrollTrigger.create({
     trigger: ".wholeBased",
-    start: "top 387px",
-    end: "top 161px",
- //   markers: { startColor: "black", endColor: "black" },
+    start: "top 55%",
+    end: "top 32%",
+    markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   })

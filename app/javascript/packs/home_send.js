@@ -16,9 +16,9 @@ export function home_send() {
 
   ScrollTrigger.create({
     trigger: ".wholeSend",
-    start: "top 400px",
-    end: "top 164px",
-  //  markers: { startColor: "black", endColor: "black" },
+    start: "top 65%",
+    end: "top 42%",
+    markers: { startColor: "black", endColor: "black" },
     scrub: true,
     animation: animation
   })
