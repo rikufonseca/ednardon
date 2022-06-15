@@ -25,7 +25,7 @@ export function home_enquiries() {
   });
 
   ScrollTrigger.matchMedia({
-    "(min-width: 280px)": function () {
+    "(min-width: 280px) and (max-width: 699px)": function () {
       let animation = gsap.timeline();
       animation
         .fromTo(".enquiriesTop", { y: 10, duration: 0 }, { y: -157, duration: 0.30, ease: "linear" })

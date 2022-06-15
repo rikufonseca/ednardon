@@ -26,7 +26,7 @@ export function home_myname() {
   });
 
   ScrollTrigger.matchMedia({
-    "(min-width: 280px)": function () {
+    "(min-width: 280px) and (max-width: 699px)": function () {
       let animation = gsap.timeline();
       animation
         .fromTo(".myNameTop", { y: 185, duration: 0 },

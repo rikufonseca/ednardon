@@ -26,7 +26,7 @@ export function home_based() {
   });
 
   ScrollTrigger.matchMedia({
-    "(min-width: 280px)": function () {
+    "(min-width: 280px) and (max-width: 699px)": function () {
       let animation = gsap.timeline();
       animation
         .fromTo(".basedTop", { y: 10, duration: 0 }, { y: -157, duration: 0.30, ease: "linear" })
