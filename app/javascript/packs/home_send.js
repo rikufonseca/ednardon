@@ -17,7 +17,7 @@ export function home_send() {
         trigger: ".wholeSend",
         start: "top 100%",
         end: "top 80%",
-        markers: { startColor: "black", endColor: "black" },
+    //    markers: { startColor: "black", endColor: "black" },
         scrub: true,
         animation: animation
       });
@@ -37,7 +37,7 @@ export function home_send() {
         trigger: ".wholeSend",
         start: "top 100%",
         end: "top 90%",
-        markers: { startColor: "black", endColor: "black" },
+    //    markers: { startColor: "black", endColor: "black" },
         scrub: true,
         animation: animation
       });
