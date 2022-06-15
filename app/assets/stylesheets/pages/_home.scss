@@ -202,3 +202,24 @@ svg#Layer_8 {
 #test-height {
   height: 1000px;
 }
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+  .ed, .info {
+    font-size: 0.9rem;
+  }
+
+  .loop-holder__text {
+    font-size: 0.8rem;
+  }
+
+  .down {
+    height: 33px;
+  }
+
+  .smaller {
+    width: 45px;
+    height: 45px;
+  }
+}
