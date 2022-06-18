@@ -13,7 +13,7 @@ export function home_hello () {
 
         .fromTo(".openOne", { attr: { y2: 175 }, duration: 0.3, ease: "linear" }, { attr: { y1: 60 }, duration: 0.30, ease: "linear" }, "<")
 
-        .fromTo(".openOne", { attr: { y1: 175 }, duration: 0, ease: "linear" }, { attr: { y2: 60 }, duration: 0.12, ease: "linear" })
+        .fromTo(".openOne", { attr: { y2: 175 }, duration: 0, ease: "linear" }, { attr: { y2: 60 }, duration: 0.12, ease: "linear" })
 
         .fromTo(".helloBottom", { y: 85, duration: 0}, { y: -30, duration: 0.12, ease: "linear"}, "<")
 
